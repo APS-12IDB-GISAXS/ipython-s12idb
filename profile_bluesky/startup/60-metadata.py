@@ -28,7 +28,7 @@ RE.md['login_id'] = USERNAME + '@' + HOSTNAME
 
 import os
 for key, value in os.environ.items():
-    if key.startswith("EPICS"):
+    if key.startswith("EPICS") and not key.startswith("EPICS_BASE"):
         RE.md[key] = value
 
 print("Metadata dictionary:")
