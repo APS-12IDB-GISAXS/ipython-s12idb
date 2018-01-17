@@ -20,3 +20,5 @@ theta = EpicsMotor('12idb:m5', name='theta')
 sample_v = EpicsMotor('12idb:m6', name='sample_v')
 sample_h = EpicsMotor('12idb:m7', name='sample_h')
 phi = EpicsMotor('12idb:m8', name='phi')
+
+append_wa_motor_list(chi, crl_z, pitch, yaw, theta, sample_h, sample_v, phi)
