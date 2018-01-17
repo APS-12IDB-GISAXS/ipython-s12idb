@@ -1,8 +1,8 @@
 print(__file__)
 
-from datetime import datetime
+"""Set up default metadata"""
 
-# Set up default metadata
+from datetime import datetime
 
 RE.md['beamline_id'] = '12-ID-B GISAXS'
 RE.md['proposal_id'] = None
